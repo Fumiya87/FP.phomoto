@@ -31,7 +31,7 @@ gem 'shrine-memory'
 gem 'image_processing', '~>1.0'
 gem "aws-sdk-s3", "~> 1.2"
 gem "device"
-gem "omniauth-facebook"
+
 
 
 group :development, :test do
