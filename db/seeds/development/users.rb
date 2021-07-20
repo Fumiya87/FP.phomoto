@@ -3,26 +3,24 @@ User.create!(
   name: "bike太郎",
   account: "master",
   introduction: "初めまして。ご覧いただきありがとうございます。",
-  web: Faker::Internet.url,
   tel: Faker::PhoneNumber.phone_number,
   sex: 1,
   password: "password",
   password_confirmation: "password",
   admin: true,
-  image: File.open("#{Rails.root}/db/thumb_image_seeds/master.jpg")
+  image: File.open("#{Rails.root}/db/thumb_image_seeds/default.jpg")
 )
 User.create!(
   email: "test@example.com",
   name: "テスト次郎",
   account: "tester",
   introduction: "初めまして。テストユーザーです。",
-  web: Faker::Internet.url,
   tel: Faker::PhoneNumber.phone_number,
   sex: 1,
   password: "password",
   password_confirmation: "password",
   admin: false,
-  image: File.open("#{Rails.root}/db/thumb_image_seeds/tester.jpg")
+  image: File.open("#{Rails.root}/db/thumb_image_seeds/default.jpg")
 )
 
 image_num_array=[*1..10].shuffle!
@@ -36,8 +34,7 @@ image_num_array=[*1..10].shuffle!
     email: email,
     name: name,
     account: account,
-    introduction: Yoshida::Text.sentences(1).join(""),
-    web: Faker::Internet.url,
+    introduction: "初めまして。ご覧いただきありがとうございます。",
     tel: Faker::PhoneNumber.phone_number,
     sex: n%3,
     password: password,
