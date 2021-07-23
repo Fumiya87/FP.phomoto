@@ -62,6 +62,7 @@ group :development do
   gem 'better_errors'
 end
 
+gem 'dotenv-rails'
 group :production do
+  gem 'mysql2'
 end
-
