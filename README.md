@@ -23,5 +23,4 @@ https://docs.google.com/spreadsheets/d/1dwWOrv5wkAoXtUnhz6EQC5XX56s8bPt-L5E_D0wt
 
 #  開発環境 OS：Linux(CentOS) 言語：HTML,CSS,JavaScript,Ruby,SQL フレームワーク：Ruby on Rails JSライブラリ：jQuery IDE：Cloud9
 
-8/5 EC2・RDS 終了・停止
-8/8 一度再開
+8/5 EC2・RDS 終了
