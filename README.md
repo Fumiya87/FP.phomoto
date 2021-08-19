@@ -24,4 +24,5 @@ https://docs.google.com/spreadsheets/d/1dwWOrv5wkAoXtUnhz6EQC5XX56s8bPt-L5E_D0wt
 #  開発環境 OS：Linux(CentOS) 言語：HTML,CSS,JavaScript,Ruby,SQL フレームワーク：Ruby on Rails JSライブラリ：jQuery IDE：Cloud9
 
 8/5 EC2・RDS 終了８/11~8/16帰省のため再開出来ず
-8/17 複製をし、デプロイ再度入力
+8/17 複製をし、デプロイ再イド設定
+8/19 デプロイ再度完了
