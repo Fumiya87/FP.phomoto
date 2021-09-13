@@ -29,3 +29,4 @@ https://docs.google.com/spreadsheets/d/1dwWOrv5wkAoXtUnhz6EQC5XX56s8bPt-L5E_D0wt
 - 8/19 デプロイ再度完了
 - ９/6デプロイ停止
 - 9/7デプロイ再開修正開始
+- ９/8　デプロイ再開修正完了
